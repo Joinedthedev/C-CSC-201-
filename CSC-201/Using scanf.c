@@ -8,7 +8,7 @@
     
     scanf("%d", &myNo); /* The easiest way to understand the correlaion between the scanf and printf coming from python is to 
     think of it as being linked to the print statement above and providing an input function to it. This scanf takes input and stores
-    it to the whatever pre defined  important to add the '&' to the variable after specifying the data type when using scanf 
+    it to the whatever pre defined variable important to add the '&' to the variable after specifying the data type when using scanf 
     or else you'll get an error*/
 
     printf("I see. So your number is: %d", myNo);
