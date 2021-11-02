@@ -38,13 +38,19 @@
         "command": "gcc",
         "windows": {
           "args": [
-            { "value": "${fileBasename}", "quoting": "strong" },
+            {
+              "value": "${fileBasename}",
+              "quoting": "strong"
+            },
             "-o",
             "${fileBasenameNoExtension}.exe"
           ]
         },
         "args": [
-          { "value": "${fileBasename}", "quoting": "strong" },
+          {
+            "value": "${fileBasename}",
+            "quoting": "strong"
+          },
           "-o",
           "${fileBasenameNoExtension}.out"
         ],
@@ -57,9 +63,10 @@
           "clear": true
         },
         "group": "build",
-        "problemMatcher": ["$gcc"]
+        "problemMatcher": [
+          "$gcc"
+        ]
       },
-
       {
         "label": "Open file",
         "type": "shell",
@@ -78,10 +85,14 @@
           "showReuseMessage": true,
           "clear": false
         },
-        "dependsOn": ["Compile"],
-        "dependsOrder": "sequence"
+        "dependsOn": [
+          "Compile"
+        ],
+        "dependsOrder": "sequence",
+        "problemMatcher": [
+          "$gcc"
+        ]
       },
-
       {
         "label": "Cleanup",
         "type": "shell",
@@ -91,9 +102,19 @@
         },
         "windows": {
           "command": "del",
-          "args": [{ "value": "${fileBasenameNoExtension}.exe", "quoting": "strong" }]
+          "args": [
+            {
+              "value": "${fileBasenameNoExtension}.exe",
+              "quoting": "strong"
+            }
+          ]
         },
-        "args": [{ "value": "${fileBasenameNoExtension}.out", "quoting": "strong" }],
+        "args": [
+          {
+            "value": "${fileBasenameNoExtension}.out",
+            "quoting": "strong"
+          }
+        ],
         "presentation": {
           "echo": true,
           "reveal": "silent",
@@ -102,7 +123,9 @@
           "showReuseMessage": true,
           "clear": true
         },
-        "dependsOn": ["Open file"],
+        "dependsOn": [
+          "Open file"
+        ],
         "dependsOrder": "sequence",
         "group": {
           "kind": "build",
