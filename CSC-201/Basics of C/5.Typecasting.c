@@ -28,7 +28,7 @@ return 0;
 */
 
 /* the program above converts the result to a float sucessfully but it outputs the answer as 3.00000. The conversion
-takes place AFTER the result is obtained. So this method is also inefficient*/
+takes place AFTER the result is obtained. So this method is also insufficient*/
 
 int main(){
     int x = 10, y = 3;
