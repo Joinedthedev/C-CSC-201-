@@ -63,9 +63,7 @@
           "clear": true
         },
         "group": "build",
-        "problemMatcher": [
-          "$gcc"
-        ]
+        "problemMatcher": []
       },
       {
         "label": "Open file",
@@ -130,7 +128,8 @@
         "group": {
           "kind": "build",
           "isDefault": true
-        }
+        },
+        "problemMatcher": []
       }
     ]
   },
@@ -138,3 +137,4 @@
     "recommendations": ["cschlosser.doxdocgen", "ms-vscode.cpptools", "yzhang.markdown-all-in-one"]
   }
 }
+

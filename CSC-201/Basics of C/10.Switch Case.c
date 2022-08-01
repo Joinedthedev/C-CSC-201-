@@ -13,7 +13,8 @@ compare it with the nested if down below and see if you can spot the differences
 
 //P.S. Switch only reads values of int type.
 
-/*int main(){
+/*
+int main(){
   int  Z;
   scanf("%d", &Z);
     switch (Z-1) // this is where the constant expression goes. This never changes.
@@ -34,8 +35,8 @@ compare it with the nested if down below and see if you can spot the differences
         break;
     }
 return 0;
-} */
-
+} 
+*/
 int main(){
     int z;
     scanf("%d", &z);  

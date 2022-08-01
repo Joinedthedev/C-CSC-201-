@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*loops are essentially blocks of code that keep running until a condition is met. Generally there are two types of loops
 in every programmng langauge namely, WHILE & FOR loops. C is primitive so theres three. The addition is Do-While loops.
 They are executed as follows:
@@ -23,16 +24,18 @@ int main(){
 }
 
 */
+
+/*
 int main(){
     int Counter= 0;
     do                  /* so the do while loop executes the code before the condition at least once. 
                         Normally the code wouldn't execute since our condition is false. 
                         But because we are using a do while loop, the code will always execute at least once 
-                        before checking the condition*/
+                        before checking the condition
     {
         printf("%d", Counter);
         ++Counter;
 
     } while (Counter>5); // This is false, yet the code above will still execute once.
     
-}
+} */

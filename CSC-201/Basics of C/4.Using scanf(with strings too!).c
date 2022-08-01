@@ -3,13 +3,13 @@
 
 // REMEMBER TO COMMENT OUT WHATEVER FUNCTIONS YOUR NOT TYRING TO RUN BY USING "/* */" OTHERWISE THE CODE WONT RUN
  
- 
+ /*
  
  int main () {
     int myNo; // first you define the variable. This is what will be attached to your scanf.
     
     printf("I see you are trying to learn scan f. Enter a number if so!"); /* The print f statement that comes before
-    the scanf is what the console will prompt the user. So when this code is ran, the console will prompt the statement above.*/
+    the scanf is what the console will prompt the user. So when this code is ran, the console will prompt the statement above.
     
     scanf("%d", &myNo); /* The easiest way to understand the correlation between scanf and printf coming from python is to 
     think of it as being linked to the print statement above and providing an input function to it. scanf takes input and stores
@@ -18,12 +18,12 @@
     scanf("Format/data type specifier", Variable Address)
     
     The "&"(ampersand) is used to indicate the address of the variable. We haven't gotten into pointers & memory management yet
-    so I wouldn't worry too much about the exact use of ampersand yet. Just know its used to get the address of the variable. */
+    so I wouldn't worry too much about the exact use of ampersand yet. Just know its used to get the address of the variable. 
 
     printf("I see. So your number is: %d", myNo);
 
-return 0;/* this return doesnt really serve any function other than telling the computer your code works. When your exit code is zero
-it generally means there are no errors. Your return value is not equal to your output value*/
+return 0; this return doesnt really serve any function other than telling the computer your code works. When your exit code is zero
+it generally means there are no errors. Your return value is not equal to your output value
 } 
 
 int main (){
@@ -46,6 +46,7 @@ return 0;
 
 // A program that takes the user's name and prints it telling them their name. 
 
+*/
 int main () { 
      
     char myName[5]; /* in C, string is not a formal data type. So we define the data type of the variable

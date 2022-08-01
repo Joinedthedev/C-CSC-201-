@@ -2,8 +2,8 @@
 // A program that writes your full name and uni name
 
 int main(){
-    char name[50];
-    char uni[50];
+    char name[]= "";
+    char uni[]= "";
     printf("Name: ");
     scanf("%s", &name);
 
