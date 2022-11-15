@@ -28,14 +28,14 @@ int main(){
     double x = 24.34;//double is another data type in c for decimals. Its practically the same as float but more precise.
                     
     if (x == 24.34){
-        printf("X is equal to %f", x);
+        printf("X is equal to %lf", x);
     }
 return 0;
 }
 
 //^^the above program executed the if block of code because the condition is true. X is indeed = 24.34.
 
-/*int main() {
+int main() {
     int x = 7, y = 75;
 if (x >= 3 && y <=456) { 
     printf("Its true innit?");
@@ -47,7 +47,7 @@ else{
 }
 return 0;
 }
-*/
+
 
 /* the program above executed the first block of code since the condition was true. x(7) is greater than or equal 
 to three and y(75) is less than or equal to 456. But what happens when its false?*/

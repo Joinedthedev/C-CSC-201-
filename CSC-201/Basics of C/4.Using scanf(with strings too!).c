@@ -25,7 +25,7 @@
 return 0; this return doesnt really serve any function other than telling the computer your code works. When your exit code is zero
 it generally means there are no errors. Your return value is not equal to your output value
 } 
-
+*/
 int main (){
     //a program that takes user input(two numbers) and calculates their sum
     int x;
@@ -41,25 +41,25 @@ int main (){
 
 return 0;
 }
-
+/*
 //NOTE: We did not use scan f with strings yet but you can read, practice and use this if you want to read ahead
 
 // A program that takes the user's name and prints it telling them their name. 
 
-*/
+
 int main () { 
      
-    char myName[5]; /* in C, string is not a formal data type. So we define the data type of the variable
+    char myName[5] = "Salim"; /* in C, string is not a formal data type. So we define the data type of the variable
      as a character. Then we use '[]' to specify the number of characters in the string. This variable can hold 6 
      characters since it begins indexing from zero. The variable will ONLY hold the number of characters you specified.
      For example, a 7 letter word like "Salemah", will only hold "Salema", since the no of characters is 
-     specified as 5. {S[0] A[1] L[2] E[3] M[4] [A][5]} */
+     specified as 5. {S[0] A[1] L[2] E[3] M[4] [A][5]} 
     
     printf("Enter your name:");
     scanf("%s", &myName); /* the format of our variable is a string hence we use %s (Strings do not actually require the ampersand next 
     to the variable in the scanf function because the character array denotes the address of the array itself so no need to specify. BUT STILL,
-     USE IT FOR NOW FOR GOOD PRACTICE)*/
+     USE IT FOR NOW FOR GOOD PRACTICE)
 
-    printf("Your name is %s", myName); 
+    printf("The first letter of my name is %c", myName[0]); 
 return 0;
-}
+*/
